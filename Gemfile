@@ -22,4 +22,4 @@ response = http.request(request)
 puts response.body
 
 gem 'sinatra'
-gem 'puma'
+gem 'puma', '>= 4.3.9'
