@@ -21,5 +21,5 @@ request.body = env.to_json
 response = http.request(request)
 puts response.body
 
-gem 'sinatra'
+gem 'sinatra', '>= 4.0.0'
 gem 'puma'
